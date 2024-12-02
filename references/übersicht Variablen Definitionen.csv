@@ -1,3 +1,4 @@
+Column1;Column2;Column3;Column4
 Name;Beschreibung;Rolle;Typ
 Videos;Das ist die youtibe-ID jeden Videos. ;ID;Nominal
 Videotitel;Das ist der Titel des Videos;Prädikator;Kategorial 
@@ -20,7 +21,7 @@ Geschätzter Umsatz (EUR);Geschätzter Umsatz. Der Endbetrag kann sich am Ende des
 Durchschnittliche Wiedergabedauer;Die geschätzte Gesamtwiedergabezeit deiner Videos (in Stunden).;Antwort;Numerisch
 Impressionen;Wie oft die Thumbnails deines Videos Zuschauern gezeigt wurden. Dies beinhaltet nur Impressionen auf YouTube, nicht auf externen Websites oder Apps.;Prädikator;Numerisch
 Klickrate der Impressionen (%);Aufrufe pro angezeigte Impressionen. Dieser Wert gibt an, wie oft Zuschauer sich nach der Anzeige einer Impression ein Video angesehen haben. Du kannst einfach herausfinden, wie hoch deine Klickrate bei Impressionen ist.;Antwort;Numerisch
-Länge_des_Videos;Wie lang ist das Video in Sekunden;Prädikator;Numerisch
+Länge des Videos;Wie lang ist das Video in Sekunden;Prädikator;Numerisch
 Thema;Welches Thema hat das video (Kategorien);Prädikator;Kategorial 
-Bewertung_Titel;Wie oft wurde Bewertung_Titel;Prädikator;Kategorial 
-Gestaltung_Thumbnail;Wie oft wurde Gestaltung_Thumbnail;Prädikator;Kategorial 
+Bewertung_Titel;SEO Bewertung des Titel von 1 bis 10;Prädikator;Kategorial 
+Gestaltung Thumbnail;Thumbnail mit oder ohen Person im Vordergrund;Prädikator;Kategorial 

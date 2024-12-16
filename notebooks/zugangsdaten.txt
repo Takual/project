@@ -1,5 +1,0 @@
-# API Konfiguration - Hier Ihre Werte eintragen
-CHANNEL_ID = "UCSeil5V81-mEGB1-VNR7YEA"  # Ihre YouTube Channel ID
-DATA_API_V3_KEY = "AIzaSyCBw3tVk-TnYLCZW2vmojQlYFBArzudU-A"  # API Key für YouTube Data API v3
-#ANALYTICS_API_KEY = "AIzaSyCBw3tVk-TnYLCZW2vmojQlYFBArzudU-A"  # API Key für YouTube Analytics API
-CREDENTIALS_PATH = "C:\\Users\\laukat\\OneDrive - Mediengruppe RTL\\HDM Data Analyti\\oauth 2.0\\client_secret_796311161257-bnk32mvms5t9fsfma7agbgrlt5fo54gi.apps.googleusercontent.com.json"  # Pfad zur client_secrets.json"

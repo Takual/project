@@ -1,0 +1,668 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <meta charset="utf-8">
+    <title>Thumbnail Analyse</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .stats { 
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .stat-box { 
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .thumbnails { 
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .thumbnail { 
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .thumbnail img { 
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+        .score-1 { color: #dc3545; }
+        .score-2 { color: #ffc107; }
+        .score-3 { color: #28a745; }
+    </style>
+    </head>
+    <body>
+    <div class="container">
+        <h1>Thumbnail Analyse Ergebnisse</h1>
+        
+        <div class="stats">
+            <div class="stat-box">
+                <h3>Score 3 (Optimal)</h3>
+                <p>37 Videos</p>
+            </div>
+            <div class="stat-box">
+                <h3>Score 2 (Mit Text)</h3>
+                <p>34 Videos</p>
+            </div>
+            <div class="stat-box">
+                <h3>Score 1 (Basic)</h3>
+                <p>29 Videos</p>
+            </div>
+        </div>
+        
+        <div class="thumbnails">
+    
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\ocF3urhbcBg.jpg" alt="Thumbnail ocF3urhbcBg">
+                <p>Video ID: ocF3urhbcBg</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\AYI1Uh9GndI.jpg" alt="Thumbnail AYI1Uh9GndI">
+                <p>Video ID: AYI1Uh9GndI</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\FwhMJkNN8Ss.jpg" alt="Thumbnail FwhMJkNN8Ss">
+                <p>Video ID: FwhMJkNN8Ss</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\RF1eXuhzR2g.jpg" alt="Thumbnail RF1eXuhzR2g">
+                <p>Video ID: RF1eXuhzR2g</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\rRpDpfVdOeQ.jpg" alt="Thumbnail rRpDpfVdOeQ">
+                <p>Video ID: rRpDpfVdOeQ</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\l2LVrG0G8DQ.jpg" alt="Thumbnail l2LVrG0G8DQ">
+                <p>Video ID: l2LVrG0G8DQ</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\icGRNm81z14.jpg" alt="Thumbnail icGRNm81z14">
+                <p>Video ID: icGRNm81z14</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\_brUqNMGvXA.jpg" alt="Thumbnail _brUqNMGvXA">
+                <p>Video ID: _brUqNMGvXA</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\Ik474Olthzs.jpg" alt="Thumbnail Ik474Olthzs">
+                <p>Video ID: Ik474Olthzs</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\uTENIqDHYRE.jpg" alt="Thumbnail uTENIqDHYRE">
+                <p>Video ID: uTENIqDHYRE</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\kh7ESJWqyNo.jpg" alt="Thumbnail kh7ESJWqyNo">
+                <p>Video ID: kh7ESJWqyNo</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\8UdU7QAxJq8.jpg" alt="Thumbnail 8UdU7QAxJq8">
+                <p>Video ID: 8UdU7QAxJq8</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\5JMv8KBHP5k.jpg" alt="Thumbnail 5JMv8KBHP5k">
+                <p>Video ID: 5JMv8KBHP5k</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\2WLc0KY9M5s.jpg" alt="Thumbnail 2WLc0KY9M5s">
+                <p>Video ID: 2WLc0KY9M5s</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\Xi4y1CXSYBc.jpg" alt="Thumbnail Xi4y1CXSYBc">
+                <p>Video ID: Xi4y1CXSYBc</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\nUJWBotCsus.jpg" alt="Thumbnail nUJWBotCsus">
+                <p>Video ID: nUJWBotCsus</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\ohzNAOjOq9g.jpg" alt="Thumbnail ohzNAOjOq9g">
+                <p>Video ID: ohzNAOjOq9g</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\xmwVtUA989I.jpg" alt="Thumbnail xmwVtUA989I">
+                <p>Video ID: xmwVtUA989I</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\Jo9eWJQ4G-8.jpg" alt="Thumbnail Jo9eWJQ4G-8">
+                <p>Video ID: Jo9eWJQ4G-8</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\9JHmDWh-IKI.jpg" alt="Thumbnail 9JHmDWh-IKI">
+                <p>Video ID: 9JHmDWh-IKI</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\W31ueEDNxc4.jpg" alt="Thumbnail W31ueEDNxc4">
+                <p>Video ID: W31ueEDNxc4</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\tzHdLlNzpFM.jpg" alt="Thumbnail tzHdLlNzpFM">
+                <p>Video ID: tzHdLlNzpFM</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\w6Mgt7gGTlE.jpg" alt="Thumbnail w6Mgt7gGTlE">
+                <p>Video ID: w6Mgt7gGTlE</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\AwPsWDu_O30.jpg" alt="Thumbnail AwPsWDu_O30">
+                <p>Video ID: AwPsWDu_O30</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\Qotm0uLQlIc.jpg" alt="Thumbnail Qotm0uLQlIc">
+                <p>Video ID: Qotm0uLQlIc</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\XfWwvvPGtgE.jpg" alt="Thumbnail XfWwvvPGtgE">
+                <p>Video ID: XfWwvvPGtgE</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\y3EzVIe_Z0E.jpg" alt="Thumbnail y3EzVIe_Z0E">
+                <p>Video ID: y3EzVIe_Z0E</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\Dquy_JgGjvo.jpg" alt="Thumbnail Dquy_JgGjvo">
+                <p>Video ID: Dquy_JgGjvo</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\iSef2hnXwdE.jpg" alt="Thumbnail iSef2hnXwdE">
+                <p>Video ID: iSef2hnXwdE</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\7Nt88d7zw8k.jpg" alt="Thumbnail 7Nt88d7zw8k">
+                <p>Video ID: 7Nt88d7zw8k</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\rr92gZgA6ag.jpg" alt="Thumbnail rr92gZgA6ag">
+                <p>Video ID: rr92gZgA6ag</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\yYoJnmezyEM.jpg" alt="Thumbnail yYoJnmezyEM">
+                <p>Video ID: yYoJnmezyEM</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\rey4jJ3CsBw.jpg" alt="Thumbnail rey4jJ3CsBw">
+                <p>Video ID: rey4jJ3CsBw</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\3tYyiSCo5wE.jpg" alt="Thumbnail 3tYyiSCo5wE">
+                <p>Video ID: 3tYyiSCo5wE</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\snGLVPNE87s.jpg" alt="Thumbnail snGLVPNE87s">
+                <p>Video ID: snGLVPNE87s</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\HE2oMf-G6e0.jpg" alt="Thumbnail HE2oMf-G6e0">
+                <p>Video ID: HE2oMf-G6e0</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\0zETzGurx64.jpg" alt="Thumbnail 0zETzGurx64">
+                <p>Video ID: 0zETzGurx64</p>
+                <p class="score-3">Score: 3</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\6K5bp1mCotM.jpg" alt="Thumbnail 6K5bp1mCotM">
+                <p>Video ID: 6K5bp1mCotM</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\A0LVL3EFQ-s.jpg" alt="Thumbnail A0LVL3EFQ-s">
+                <p>Video ID: A0LVL3EFQ-s</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\v0cgInpOa-c.jpg" alt="Thumbnail v0cgInpOa-c">
+                <p>Video ID: v0cgInpOa-c</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\2NKfAgTEnYc.jpg" alt="Thumbnail 2NKfAgTEnYc">
+                <p>Video ID: 2NKfAgTEnYc</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\oAtxeCFsYGo.jpg" alt="Thumbnail oAtxeCFsYGo">
+                <p>Video ID: oAtxeCFsYGo</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\Bx3b8R6wnpU.jpg" alt="Thumbnail Bx3b8R6wnpU">
+                <p>Video ID: Bx3b8R6wnpU</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\dyZ9p0kpGVE.jpg" alt="Thumbnail dyZ9p0kpGVE">
+                <p>Video ID: dyZ9p0kpGVE</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\TsISYLovyC8.jpg" alt="Thumbnail TsISYLovyC8">
+                <p>Video ID: TsISYLovyC8</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\qu7ZnyiIr90.jpg" alt="Thumbnail qu7ZnyiIr90">
+                <p>Video ID: qu7ZnyiIr90</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\e4VEHiWCQmw.jpg" alt="Thumbnail e4VEHiWCQmw">
+                <p>Video ID: e4VEHiWCQmw</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\V4jaeFvEhQY.jpg" alt="Thumbnail V4jaeFvEhQY">
+                <p>Video ID: V4jaeFvEhQY</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\75kvEns-XkA.jpg" alt="Thumbnail 75kvEns-XkA">
+                <p>Video ID: 75kvEns-XkA</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\fQZGn16Q1p4.jpg" alt="Thumbnail fQZGn16Q1p4">
+                <p>Video ID: fQZGn16Q1p4</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\Yr-tzqXpenM.jpg" alt="Thumbnail Yr-tzqXpenM">
+                <p>Video ID: Yr-tzqXpenM</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\Hcam0A2xhAA.jpg" alt="Thumbnail Hcam0A2xhAA">
+                <p>Video ID: Hcam0A2xhAA</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\H_vaRSda4AY.jpg" alt="Thumbnail H_vaRSda4AY">
+                <p>Video ID: H_vaRSda4AY</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\Rcctu8j-Dpw.jpg" alt="Thumbnail Rcctu8j-Dpw">
+                <p>Video ID: Rcctu8j-Dpw</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\SEW75W9Hh74.jpg" alt="Thumbnail SEW75W9Hh74">
+                <p>Video ID: SEW75W9Hh74</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\MHy4JUDxceo.jpg" alt="Thumbnail MHy4JUDxceo">
+                <p>Video ID: MHy4JUDxceo</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\qaZ0J8Q7TXc.jpg" alt="Thumbnail qaZ0J8Q7TXc">
+                <p>Video ID: qaZ0J8Q7TXc</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\LH0wntmiFD4.jpg" alt="Thumbnail LH0wntmiFD4">
+                <p>Video ID: LH0wntmiFD4</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\BVvUJdWk5aY.jpg" alt="Thumbnail BVvUJdWk5aY">
+                <p>Video ID: BVvUJdWk5aY</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\73ccXoL2T8k.jpg" alt="Thumbnail 73ccXoL2T8k">
+                <p>Video ID: 73ccXoL2T8k</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\S1X3FPQWLdI.jpg" alt="Thumbnail S1X3FPQWLdI">
+                <p>Video ID: S1X3FPQWLdI</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\6biPXDEzt5c.jpg" alt="Thumbnail 6biPXDEzt5c">
+                <p>Video ID: 6biPXDEzt5c</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\oar58icxNls.jpg" alt="Thumbnail oar58icxNls">
+                <p>Video ID: oar58icxNls</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\03l3IR_W6s8.jpg" alt="Thumbnail 03l3IR_W6s8">
+                <p>Video ID: 03l3IR_W6s8</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\7lmbUWdHNGo.jpg" alt="Thumbnail 7lmbUWdHNGo">
+                <p>Video ID: 7lmbUWdHNGo</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\7wpw4m6pIT0.jpg" alt="Thumbnail 7wpw4m6pIT0">
+                <p>Video ID: 7wpw4m6pIT0</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\u0zdNxVOUFo.jpg" alt="Thumbnail u0zdNxVOUFo">
+                <p>Video ID: u0zdNxVOUFo</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\1p__yxGO7PU.jpg" alt="Thumbnail 1p__yxGO7PU">
+                <p>Video ID: 1p__yxGO7PU</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\3IVw8kkBCxQ.jpg" alt="Thumbnail 3IVw8kkBCxQ">
+                <p>Video ID: 3IVw8kkBCxQ</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\rBnNRVylQo8.jpg" alt="Thumbnail rBnNRVylQo8">
+                <p>Video ID: rBnNRVylQo8</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\VUcK1BI1Vb4.jpg" alt="Thumbnail VUcK1BI1Vb4">
+                <p>Video ID: VUcK1BI1Vb4</p>
+                <p class="score-2">Score: 2</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\K7fJrzBrihc.jpg" alt="Thumbnail K7fJrzBrihc">
+                <p>Video ID: K7fJrzBrihc</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\RliGGEQncKo.jpg" alt="Thumbnail RliGGEQncKo">
+                <p>Video ID: RliGGEQncKo</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\c-ANHlet4Zo.jpg" alt="Thumbnail c-ANHlet4Zo">
+                <p>Video ID: c-ANHlet4Zo</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\LhwfqfK08hI.jpg" alt="Thumbnail LhwfqfK08hI">
+                <p>Video ID: LhwfqfK08hI</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\sMx7p41L0eA.jpg" alt="Thumbnail sMx7p41L0eA">
+                <p>Video ID: sMx7p41L0eA</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\HqZfqXLnOfM.jpg" alt="Thumbnail HqZfqXLnOfM">
+                <p>Video ID: HqZfqXLnOfM</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\bcQhtmVEOSE.jpg" alt="Thumbnail bcQhtmVEOSE">
+                <p>Video ID: bcQhtmVEOSE</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\5zr57ym8fv4.jpg" alt="Thumbnail 5zr57ym8fv4">
+                <p>Video ID: 5zr57ym8fv4</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\fQ_IOGBfIyo.jpg" alt="Thumbnail fQ_IOGBfIyo">
+                <p>Video ID: fQ_IOGBfIyo</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\1i7MKCXBvMk.jpg" alt="Thumbnail 1i7MKCXBvMk">
+                <p>Video ID: 1i7MKCXBvMk</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\mBxswD7lWgk.jpg" alt="Thumbnail mBxswD7lWgk">
+                <p>Video ID: mBxswD7lWgk</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\C0Ls4WaK6Yc.jpg" alt="Thumbnail C0Ls4WaK6Yc">
+                <p>Video ID: C0Ls4WaK6Yc</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\frox4jrqDIA.jpg" alt="Thumbnail frox4jrqDIA">
+                <p>Video ID: frox4jrqDIA</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\UaSqgMN35PU.jpg" alt="Thumbnail UaSqgMN35PU">
+                <p>Video ID: UaSqgMN35PU</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\ehAG2edVcGw.jpg" alt="Thumbnail ehAG2edVcGw">
+                <p>Video ID: ehAG2edVcGw</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\FQBmgDQ6kGc.jpg" alt="Thumbnail FQBmgDQ6kGc">
+                <p>Video ID: FQBmgDQ6kGc</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\J-YHEoi5EXE.jpg" alt="Thumbnail J-YHEoi5EXE">
+                <p>Video ID: J-YHEoi5EXE</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\2UCh0aC1UZo.jpg" alt="Thumbnail 2UCh0aC1UZo">
+                <p>Video ID: 2UCh0aC1UZo</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\R2b28MuDfVc.jpg" alt="Thumbnail R2b28MuDfVc">
+                <p>Video ID: R2b28MuDfVc</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\T0L-ylMgoSA.jpg" alt="Thumbnail T0L-ylMgoSA">
+                <p>Video ID: T0L-ylMgoSA</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\Fr0dB65h0uM.jpg" alt="Thumbnail Fr0dB65h0uM">
+                <p>Video ID: Fr0dB65h0uM</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\chkgWDzlqs0.jpg" alt="Thumbnail chkgWDzlqs0">
+                <p>Video ID: chkgWDzlqs0</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\eglAhCyb9TA.jpg" alt="Thumbnail eglAhCyb9TA">
+                <p>Video ID: eglAhCyb9TA</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\quD57mieudw.jpg" alt="Thumbnail quD57mieudw">
+                <p>Video ID: quD57mieudw</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\feohZT0gsHA.jpg" alt="Thumbnail feohZT0gsHA">
+                <p>Video ID: feohZT0gsHA</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\DAC6CuDAbG8.jpg" alt="Thumbnail DAC6CuDAbG8">
+                <p>Video ID: DAC6CuDAbG8</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\zMq5YasFcG8.jpg" alt="Thumbnail zMq5YasFcG8">
+                <p>Video ID: zMq5YasFcG8</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\DgXUDzMTzuk.jpg" alt="Thumbnail DgXUDzMTzuk">
+                <p>Video ID: DgXUDzMTzuk</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+            <div class="thumbnail">
+                <img src="youtube_thumbnails\_PRiSe18A_I.jpg" alt="Thumbnail _PRiSe18A_I">
+                <p>Video ID: _PRiSe18A_I</p>
+                <p class="score-1">Score: 1</p>
+            </div>
+        
+        </div>
+    </div>
+    </body>
+    </html>
+    

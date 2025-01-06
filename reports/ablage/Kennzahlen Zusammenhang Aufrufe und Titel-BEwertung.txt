@@ -1,0 +1,9 @@
+Position der Bewertung_Titel in den F-Scores:
+            Feature   F_Score   P_Value
+30  Bewertung_Titel  0.057811  0.810048
+
+Position der Bewertung_Titel in den Lasso-Koeffizienten:
+            Feature  Coefficient
+30  Bewertung_Titel          0.0
+
+Korrelation Bewertung_Titel mit Aufrufen: 0.008217748909879277

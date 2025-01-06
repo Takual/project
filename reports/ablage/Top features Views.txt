@@ -1,0 +1,29 @@
+Top 10 Features nach F-Score:
+                      Feature      F_Score        P_Value
+1      wiedergabezeit_minuten  1859.071082  9.078249e-217
+3        gewonnene_abonnenten  1707.545759  4.348595e-206
+4        verlorene_abonnenten  1568.552391  1.014670e-195
+5                       likes  1457.086926  5.757683e-187
+29               Impressionen  1297.402429  1.165345e-173
+23             Neue Zuschauer  1184.112997  1.318578e-163
+24  Klicks auf Abspannelement  1043.890206  2.334375e-150
+8                  kommentare   282.074385   6.232910e-55
+7            geteilte_inhalte   241.651793   3.486302e-48
+6                    dislikes   210.045392   9.932109e-43
+
+Top 10 Features nach Lasso-Koeffizienten:
+                   Feature  Coefficient
+1   wiedergabezeit_minuten     0.434739
+29            Impressionen     0.130336
+5                    likes     0.124056
+8               kommentare     0.043414
+4     verlorene_abonnenten     0.033622
+22  audience_male_age13-17     0.029311
+6                 dislikes     0.023708
+10  audience_male_age18-24     0.021452
+0     video_length_seconds     0.014445
+...
+audience_male_age25-34 -- audience_male_age65-: -0.773
+audience_female_age13-17 -- audience_male_age13-17: 0.819
+
+Korrelation Titelbewertung mit Aufrufen: 0.008217748909879277

@@ -1,0 +1,35 @@
+Diese Ergebnisse für die Analyse der Aufrufe (ohne Live-Content) zeigen einige interessante Muster:
+
+1. **Top-Prädiktoren nach F-Score:**
+   - `wiedergabezeit_minuten` (mit höchstem F-Score: 1859)
+   - `gewonnene_abonnenten` (F-Score: 1708)
+   - `verlorene_abonnenten` (F-Score: 1569)
+   - `likes` (F-Score: 1457)
+   - `Impressionen` (F-Score: 1297)
+
+2. **Top-Prädiktoren nach Lasso:**
+   - `wiedergabezeit_minuten` (Koeffizient: 0.435)
+   - `Impressionen` (Koeffizient: 0.130)
+   - `likes` (Koeffizient: 0.124)
+   - Weitere Metriken haben deutlich kleinere Koeffizienten (<0.05)
+
+3. **Wichtige Beobachtungen:**
+   - Die Titelbewertung zeigt praktisch keine Korrelation mit den Aufrufen (0.008)
+   - Engagement-Metriken (Likes, Kommentare, Abonnenten) sind viel wichtiger für Aufrufe als für die Wiedergabedauer
+   - `Impressionen` spielen eine wichtige Rolle, was logisch ist, da sie direkt mit der Chance auf Aufrufe zusammenhängen
+
+**Empfehlung für ein Regressionsmodell zur Vorhersage der Aufrufe:**
+
+1. **Hauptprädiktoren:**
+   - `wiedergabezeit_minuten`
+   - `Impressionen`
+   - `likes`
+
+2. **Sekundäre Prädiktoren:**
+   - `kommentare`
+   - `verlorene_abonnenten`
+
+3. **Zu vermeidende Variablen:**
+   - `Bewertung_Titel` (keine signifikante Korrelation)
+   - Stark korrelierte Features sollten nicht gemeinsam verwendet werden
+

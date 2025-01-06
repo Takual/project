@@ -1,0 +1,16 @@
+Top Features für Klickrate:
+                                      Feature    F_Score       P_Value
+19                     audience_female_age65-  33.095213  1.221377e-08
+24                  Klicks auf Abspannelement  22.732153  2.187981e-06
+7                            geteilte_inhalte  18.502769  1.892069e-05
+1                      wiedergabezeit_minuten  17.944155  2.521413e-05
+2   durchschnittliche_wiedergabedauer_prozent  17.815362  2.694211e-05
+18                     audience_male_age55-64  16.074560  6.620929e-05
+5                                       likes  14.780941  1.296937e-04
+4                        verlorene_abonnenten  14.364225  1.611935e-04
+23                             Neue Zuschauer  11.142085  8.803260e-04
+10                     audience_male_age18-24  10.784455  1.065100e-03
+
+Korrelationen mit Klickrate:
+Thumbnail-Gestaltung: 0.018144471657620825
+Titel-Bewertung: 0.018230744736757527

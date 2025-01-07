@@ -1,0 +1,83 @@
+Statistische Zusammenfassung:
+        Klickrate   Thumbnail  Titelbewertung
+count  338.000000  338.000000      338.000000
+mean     4.041834    2.115385        6.985207
+std      2.160089    0.763601        0.784543
+min      1.060000    1.000000        4.500000
+25%      2.242500    2.000000        6.500000
+50%      3.615000    2.000000        6.500000
+75%      5.370000    3.000000        7.500000
+max     14.260000    3.000000        8.500000
+
+Korrelationsmatrix:
+                Klickrate  Thumbnail  Titelbewertung
+Klickrate        1.000000   0.088058       -0.062538
+Thumbnail        0.088058   1.000000       -0.024385
+Titelbewertung  -0.062538  -0.024385        1.000000
+
+ANOVA Test für Thumbnail-Kategorien:
+F-Statistik: 2.4923
+P-Wert: 0.0842
+
+Durchschnittliche Klickrate nach Thumbnail-Kategorie:
+               mean       std  count
+Thumbnail                           
+1          3.946173  1.974769     81
+2          3.797664  2.283143    137
+3          4.385167  2.107356    120
+
+
+Regression Titelbewertung -> Klickrate:
+R²: 0.0039
+Steigung: -0.1722
+Y-Achsenabschnitt: 5.2446
+
+Effektstärken zwischen Thumbnail-Kategorien (Cohen's d):
+Kategorie 1 vs 2: 0.0683
+Kategorie 1 vs 3: -0.2136
+Kategorie 2 vs 3: -0.2667
+
+
+
+Basierend auf den Ergebnissen lässt sich eine detaillierte Analyse der Beziehungen zwischen Thumbnail-Gestaltung, Titelbewertung und Klickrate durchführen:
+
+1. Thumbnail-Einfluss:
+- Es gibt einen leicht positiven Trend bei der Thumbnail-Qualität: Kategorie 3 erreicht die höchste durchschnittliche Klickrate (4,39%), gefolgt von Kategorie 1 (3,95%) und Kategorie 2 (3,80%)
+- Die ANOVA ergibt einen P-Wert von 0,0842, was knapp über dem üblichen Signifikanzniveau von 0,05 liegt
+- Die Effektstärken (Cohen's d) zeigen:
+  * Moderate Effekte zwischen Kategorie 2 und 3 (d = -0,2667)
+  * Schwache bis moderate Effekte zwischen Kategorie 1 und 3 (d = -0,2136)
+  * Vernachlässigbare Effekte zwischen Kategorie 1 und 2 (d = 0,0683)
+
+2. Titelbewertung:
+- Überraschenderweise zeigt sich ein sehr schwacher negativer Zusammenhang mit der Klickrate (Korrelation = -0,063)
+- Die lineare Regression ergibt:
+  * Ein sehr niedriges R² von 0,0039, was auf einen praktisch nicht vorhandenen linearen Zusammenhang hinweist
+  * Eine leicht negative Steigung von -0,1722
+  * Diese Ergebnisse deuten darauf hin, dass die SEO-optimierte Titelbewertung nicht direkt mit höheren Klickraten korreliert
+
+3. Verteilungsanalyse:
+- Die Klickraten zeigen eine rechtsschiefe Verteilung mit einigen Ausreißern nach oben
+- Der Median der Klickrate liegt bei 3,62%
+- Die Streuung ist bei allen Thumbnail-Kategorien ähnlich (Standardabweichungen zwischen 1,97 und 2,28)
+- Es gibt einzelne sehr erfolgreiche Videos mit Klickraten über 12%
+
+Praktische Empfehlungen:
+1. Thumbnail-Gestaltung:
+- Die Kategorie 3 (Kombination von Gesicht und präsentem Titel) zeigt die besten Ergebnisse
+- Der Unterschied ist zwar nicht stark signifikant, aber konsistent genug, um eine Präferenz für diese Gestaltungsart zu rechtfertigen
+- Die größten Unterschiede bestehen zwischen Kategorie 2 und 3, was die Wichtigkeit der kombinierten Gestaltungselemente unterstreicht
+
+2. Titeloptimierung:
+- Die aktuelle SEO-basierte Bewertung der Titel scheint nicht optimal für die Klickrate zu sein
+- Es könnte sinnvoll sein:
+  * Die Kriterien für die Titelbewertung zu überdenken
+  * Andere Aspekte der Titelgestaltung zu untersuchen
+  * Eine qualitative Analyse der besonders erfolgreichen Titel durchzuführen
+
+3. Weitere Untersuchungen:
+- Analyse der Ausreißer (Videos mit >10% Klickrate) zur Identifikation erfolgreicher Muster
+- Untersuchung von Interaktionseffekten zwischen Thumbnail und Titel
+- Berücksichtigung weiterer Variablen wie Thema, Veröffentlichungszeitpunkt oder Zielgruppe
+
+
